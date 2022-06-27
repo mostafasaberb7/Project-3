@@ -1,0 +1,109 @@
+.carousel-inner {
+    height: 560px;
+}
+
+.carousel-caption{
+    bottom: 335px !important;
+}
+#navv{
+    background-color: #6e767c;
+    opacity: .9;
+    position: sticky;
+    top: 0;
+    z-index: 100000000000;
+}
+
+.carrd
+{
+    background-color: #000 !important;
+    color: white;
+    padding : 50px 0;
+}
+
+.Programming
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px;
+    background-color: #6e767c;
+    color: white;
+
+}
+
+.accordion .bttn:hover 
+{
+text-decoration: none;
+}
+
+#headingOne
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+.bttt::before {
+    position: absolute;
+    content: "copied";
+    height: 25px;
+    width: 80px;
+    background-color: lightblue;
+    top: 91px;
+    left: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.btnbefo::after {
+    position: absolute;
+    content: "copy to clipboard ";
+    height: 50px;
+    width: 80px;
+    background-color: lightblue;
+    top: 91px;
+    left: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.btnbefo:hover::after{
+    display: block;
+}
+
+
+.btnbefo:active::before{
+    display: block;
+}
+
+.btnbefo:active::after{
+    display: none
+}
+
+.card-1 {
+    font-size: 50px;
+}
+.p-code {
+    color: rgb(126, 166, 240);
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.back-1 {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    background:url(../pictures/خلفيات-كمبيوتر-موقع-محيط-_182048401_-__.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+}
+.back-2 {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    background:url(../pictures/images.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+}
